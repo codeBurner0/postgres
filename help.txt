@@ -1,0 +1,19 @@
+sudo su postgres
+psql
+\l--> to check the dtatabases
+
+CREATE DATABASE students --> to create DATABASE
+\c studnets --> to 
+
+CREATE TABLE students(
+    ID SRIAL PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    age INT,
+    dob DATE
+);sudo -u postgres psql
+postgres=# create database mydb;
+postgres=# create user myuser with encrypted password 'mypass';
+postgres=# grant all privileges on database mydb to myuser;
+
+
